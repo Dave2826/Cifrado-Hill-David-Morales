@@ -1,4 +1,4 @@
-# 🔐 Cifrado Hill — Proyecto Final  
+#  Cifrado Hill — Proyecto Final  
 **Alumno:** David Morales Guerrero  
 **Grupo:** 1-A  
 **Materia:** Fundamentos de Álgebra 
@@ -7,7 +7,7 @@
 
 ---
 
-## 📘 Descripción del Proyecto
+##  Descripción del Proyecto
 Este proyecto implementa el **Cifrado Hill**, un método clásico de criptografía basado en **álgebra lineal**, donde un mensaje se encripta mediante una **multiplicación matricial** usando una matriz clave invertible módulo 26.
 
 El objetivo de esta actividad es aplicar conocimientos de:
@@ -26,10 +26,10 @@ El proyecto incluye:
 
 ---
 
-## 💡 ¿Qué es el Cifrado Hill?
+##  ¿Qué es el Cifrado Hill?
 El **Cifrado Hill** transforma bloques de letras en vectores numéricos y los multiplica por una matriz clave.
 
-### ✨ Pasos del cifrado:
+###  Pasos del cifrado:
 1. Convertir letras a números (`a=0`, `b=1`, ..., `z=25`)
 2. Agrupar el texto en bloques del tamaño de la matriz (este proyecto usa 2x2 → bloques de 2)
 3. Multiplicar el vector por la matriz clave:
@@ -40,7 +40,7 @@ El **Cifrado Hill** transforma bloques de letras en vectores numéricos y los mu
 
 4. Convertir los resultados numéricos a letras nuevamente.
 
-### 🔓 Pasos del **desencriptado**:
+###  Pasos del **desencriptado**:
 Se debe calcular la **matriz inversa módulo 26**:
 
 \[
@@ -61,7 +61,7 @@ Solo si la matriz es **invertible modulo 26** el desencriptado será posible.
 
 ---
 
-## 🧪 Ejemplo de matriz clave válida
+##  Ejemplo de matriz clave válida
 \[
 K = \begin{pmatrix}
 3 & 3 \\
@@ -78,13 +78,13 @@ El 9 sí tiene inverso modular → matriz válida ✔
 
 ---
 
-## 🖥️ Uso de la Aplicación
+##  Uso de la Aplicación
 La aplicación está disponible como página web publicada.
 
-### 🟦 1. Escribir el texto
+###  1. Escribir el texto
 En la sección **“Texto a Encriptar”** escribe un mensaje.
 
-### 🟩 2. Ingresar la matriz clave
+###  2. Ingresar la matriz clave
 Introduce una matriz 2x2:
 
 | a | b |
@@ -93,17 +93,17 @@ Introduce una matriz 2x2:
 
 Debe ser **invertible módulo 26**.
 
-### 🟥 3. Encriptar
+###  3. Encriptar
 Pulsa el botón **“Encriptar”** → aparece texto cifrado.
 
-### 🟨 4. Desencriptar
+###  4. Desencriptar
 Pulsa **“Desencriptar”** para recuperar el mensaje original.
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
-# 🔐 Cifrado Hill — Proyecto Final  
+#  Cifrado Hill — Proyecto Final  
 **Alumno:** David Morales Guerrero  
 **Grupo:** 1-A  
 **Materia:** Álgebra Lineal  
@@ -112,7 +112,7 @@ Pulsa **“Desencriptar”** para recuperar el mensaje original.
 
 ---
 
-## 📘 Descripción del Proyecto
+##  Descripción del Proyecto
 Este proyecto implementa el **Cifrado Hill**, un método clásico de criptografía basado en **álgebra lineal**, donde un mensaje se encripta mediante una **multiplicación matricial** usando una matriz clave invertible módulo 26.
 
 El objetivo de esta actividad es aplicar conocimientos de:
@@ -131,10 +131,10 @@ El proyecto incluye:
 
 ---
 
-## 💡 ¿Qué es el Cifrado Hill?
+##  ¿Qué es el Cifrado Hill?
 El **Cifrado Hill** transforma bloques de letras en vectores numéricos y los multiplica por una matriz clave.
 
-### ✨ Pasos del cifrado:
+###  Pasos del cifrado:
 1. Convertir letras a números (`a=0`, `b=1`, ..., `z=25`)
 2. Agrupar el texto en bloques del tamaño de la matriz (este proyecto usa 2x2 → bloques de 2)
 3. Multiplicar el vector por la matriz clave:
@@ -145,7 +145,7 @@ El **Cifrado Hill** transforma bloques de letras en vectores numéricos y los mu
 
 4. Convertir los resultados numéricos a letras nuevamente.
 
-### 🔓 Pasos del **desencriptado**:
+###  Pasos del **desencriptado**:
 Se debe calcular la **matriz inversa módulo 26**:
 
 \[
@@ -166,7 +166,7 @@ Solo si la matriz es **invertible modulo 26** el desencriptado será posible.
 
 ---
 
-## 🧪 Ejemplo de matriz clave válida
+##  Ejemplo de matriz clave válida
 \[
 K = \begin{pmatrix}
 3 & 3 \\
@@ -183,13 +183,13 @@ El 9 sí tiene inverso modular → matriz válida ✔
 
 ---
 
-## 🖥️ Uso de la Aplicación
+##  Uso de la Aplicación
 La aplicación está disponible como página web publicada.
 
-### 🟦 1. Escribir el texto
+###  1. Escribir el texto
 En la sección **“Texto a Encriptar”** escribe un mensaje.
 
-### 🟩 2. Ingresar la matriz clave
+###  2. Ingresar la matriz clave
 Introduce una matriz 2x2:
 
 | a | b |
@@ -198,13 +198,13 @@ Introduce una matriz 2x2:
 
 Debe ser **invertible módulo 26**.
 
-### 🟥 3. Encriptar
+###  3. Encriptar
 Pulsa el botón **“Encriptar”** → aparece texto cifrado.
 
-### 🟨 4. Desencriptar
+###  4. Desencriptar
 Pulsa **“Desencriptar”** para recuperar el mensaje original.
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
