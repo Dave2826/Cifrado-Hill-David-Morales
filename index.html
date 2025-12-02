@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Hill – David Morales</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cifrado Hill</h1>
+        <p><strong>Alumno:</strong> David Morales Guerrero</p>
+        <p><strong>Grupo:</strong> 1-A</p>
+        <p><strong>Materia:</strong> Álgebra Lineal</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>Texto a Encriptar</h2>
+            <textarea id="texto" placeholder="Escribe un mensaje..."></textarea>
+        </section>
+
+        <section class="card">
+            <h2>Matriz Clave (2x2)</h2>
+            <div class="grid">
+                <input id="a" type="number" placeholder="a">
+                <input id="b" type="number" placeholder="b">
+                <input id="c" type="number" placeholder="c">
+                <input id="d" type="number" placeholder="d">
+            </div>
+            <p><small>Debe ser invertible módulo 26</small></p>
+        </section>
+
+        <section class="buttons">
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+        </section>
+
+        <section class="card">
+            <h2>Resultado</h2>
+            <textarea id="resultado" readonly placeholder="Aquí aparecerá el resultado..."></textarea>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2025 • Cifrado Hill • Proyecto creado por David Morales
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
